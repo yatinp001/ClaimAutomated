@@ -1,0 +1,12 @@
+{
+  "name": "automation-claim",
+  "version": "1.0.0",
+  "description": "Auto daily claim on hpintfinance",
+  "scripts": {
+    "start": "node claim-daily.js",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
